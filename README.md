@@ -1,15 +1,17 @@
 # fdf
 
-42 Project FdF (Fil de fer) done the minilibx
+42 Project FdF (Fil de fer) done the minilibx. Graphics project of simple 3D.
 
 ### Usage
 
 ```
 make && ./fdf [file]
 ```
+Note : The map has to be rectangular.
 
 ### Example
 
+elem.fdf :
 ```
 0  0  0  0  0  0  0  0  0  0
 0 10 10 10 10 10 10 10 10  0
@@ -22,3 +24,6 @@ make && ./fdf [file]
 0  1  0  0  0  0  0  0  3  0
 0  0  0  0  0  0  0  0  0  0
 ```
+
+Result :
+![elem.fdf](https://raw.githubusercontent.com/lnieto-m/fdf/master/screenshots/elem.png)
